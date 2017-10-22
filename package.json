@@ -1,0 +1,21 @@
+{
+  "name": "jreg",
+  "version": "0.0.0",
+  "description": "Simple stdin/stdout javascript replacement",
+  "bin": {
+    "jreg": "jreg.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/jreg.git"
+  },
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konsumer/jreg/issues"
+  },
+  "homepage": "https://github.com/konsumer/jreg#readme",
+  "dependencies": {
+    "yargs": "^9.0.1"
+  }
+}
