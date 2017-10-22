@@ -33,8 +33,6 @@ var flags = ['g', 'i', 'm', 'u', 'y']
   .filter(a => argv[a])
   .join('')
 
-console.log(flags)
-
 const search = new RegExp(argv._.shift(), flags)
 var replace = argv._.shift()
 
